@@ -34,3 +34,9 @@
 ## 构建
 
 待工程骨架落地后补充。
+
+## 许可证
+
+本项目采用 **Apache License 2.0**，完整条款见 `LICENSE`。
+
+Android 端自研 ROM 基于 AOSP（Apache-2.0）。系统级容器路线已使 redroid 的 GPLv2 传染风险消除——该路线不再依赖 redroid 内核模块。
