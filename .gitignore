@@ -1,3 +1,6 @@
+# 本文件采用「根锚定」约定：所有目录型忽略规则一律以 / 开头，只匹配仓库根目录下的同名目录。
+# 原因：不带前导 / 的目录规则会在任意层级匹配，会把源码目录一并吞掉，导致必需源文件从未入库。
+
 # Gradle / Android 构建产物
 .gradle/
 build/
@@ -27,14 +30,14 @@ target/
 *.img
 *.qcow2
 *.7z
-images/
-roms/
-device-profiles/
+/images/
+/roms/
+/device-profiles/
 
 # 日志与诊断
 *.log
-logs/
-diagnostics/
+/logs/
+/diagnostics/
 
 # 密钥与本地配置（严禁入库）
 *.key
