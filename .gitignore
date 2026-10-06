@@ -1,0 +1,47 @@
+# Gradle / Android 构建产物
+.gradle/
+build/
+[Dd]ebug/
+[Rr]elease/
+local.properties
+captures/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+
+# 原生构建产物（Rust NDK）
+target/
+*.so
+*.o
+*.rlib
+
+# 镜像与 ROM 产物（体积大，严禁入库）
+*.iso
+*.img
+*.qcow2
+*.7z
+images/
+roms/
+device-profiles/
+
+# 日志与诊断
+*.log
+logs/
+diagnostics/
+
+# 密钥与本地配置（严禁入库）
+*.key
+*.pem
+*.p12
+secrets.json
+keystore.properties
+
+# 工具缓存
+node_modules/
